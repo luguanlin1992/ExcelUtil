@@ -19,7 +19,6 @@ import java.util.List;
  */
 public class FrameMain extends JFrame {
     String curRoot = System.getProperty("user.dir");
-    JsonObject jsonObject = new JsonObject();
 
     JPanel up, mid, low;
     JLabel excelLabel, jsonLabel, javaLabel;
@@ -38,7 +37,7 @@ public class FrameMain extends JFrame {
 
     public FrameMain() throws HeadlessException {
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-        this.setTitle("Excel to json and java");
+        this.setTitle("Excel to json and java " + curRoot);
         this.setSize(screenSize.width / 2, screenSize.height / 2);
         this.setLocation(screenSize.width / 4, screenSize.height / 4);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
