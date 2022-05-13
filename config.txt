@@ -1,6 +1,6 @@
 {
-  "excelRoot": "/Users/luguanlin/IdeaProjects/ExcelUtil",
-  "jsonRoot": "/Users/luguanlin/IdeaProjects/ExcelUtil/data",
-  "javaRoot": "/Users/luguanlin/IdeaProjects/ExcelUtil/javaBean",
+  "excelRoot": "/Users/luguanlin/IdeaProjects/ExcelUtil/example",
+  "jsonRoot": "/Users/luguanlin/IdeaProjects/ExcelUtil/example/data",
+  "javaRoot": "/Users/luguanlin/IdeaProjects/ExcelUtil/example/javaBean",
   "packageName": "com.lugl.data"
 }
