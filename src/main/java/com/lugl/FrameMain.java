@@ -28,9 +28,6 @@ public class FrameMain extends JFrame {
     JScrollPane filePanel;
     JList fileList;
 
-    String packageName;
-
-
     public static void main(String[] args) {
         new FrameMain();
     }
@@ -56,11 +53,8 @@ public class FrameMain extends JFrame {
         javaLabel = new JLabel("java root:");
 
         excelField = new JTextField("");
-//        excelField.setSize(100, 10);
         jsonField = new JTextField("");
-//        jsonField.setSize(100, 10);
         javaField = new JTextField("");
-//        javaField.setSize(100, 10);
 
         excelButton = new JButton("chose dir");
         jsonButton = new JButton("chose dir");
